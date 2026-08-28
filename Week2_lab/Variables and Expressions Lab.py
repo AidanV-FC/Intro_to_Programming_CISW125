@@ -46,17 +46,21 @@ floordiv=num1//num2
 print(floordiv)
 # See if you can find other ways to "do maths" (hint: operators are useful and efficient.)
 # https://www.w3schools.com/python/python_operators.asp
-print
-
+print(9+9)
+print(addtotal+subtotal)
 # Now, I'd like you to make two variables that contain your first and last name
 # After you've made the variables, find a way to join the two strings to print your full name. This is string concatenation.
 # Think of it as "adding" your variables together.
-
-
+fistname="Aidan"
+lastname="Valenta"
+print(fistname + " " + lastname)
 # While we did some math earlier, I'd like you to try doing math with variables this time. (If you already did this, you can skip this. Good job.)
-
-
+print(multtotal+subtotal)
+print(divtotal**multtotal)
 # Lastly, do something of your own choice. Anything that involves variables and expressions is allowed here.
 # If you're stumped on ideas, just try and make an expression that converts Celsius to Fahrenheit or vice versa.
-
+milelength=5280
+meterdivider=0.3048
+miletometers=milelength*meterdivider
+print(miletometers)
 # Upload this to Canvas under the Variable and Expressions Lab assignment.
