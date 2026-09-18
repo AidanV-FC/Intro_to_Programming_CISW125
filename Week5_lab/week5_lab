@@ -1,0 +1,57 @@
+# WEEK 5 LAB
+
+#1. Grading system
+percentage = float(input("Enter your percentage: >"))
+if percentage == 100:
+    print("HOLY SMOKES! Perfect score!")
+if percentage >= 90 and percentage < 100:
+    print("Good Job! You got an A!")
+elif percentage >= 80 and percentage < 90:
+    print("Not Bad. You got a B.")
+elif percentage >= 70 and percentage < 80:
+    print("You got a C. Did you even try?")
+elif percentage >= 60 and percentage < 70:
+    print("Good Job! That was awful. You got a D.")
+elif percentage < 60:
+    print("Dude.")
+elif percentage > 100:
+    print("What. HOW?")
+
+#2. BMI Checker
+height = float(input("Enter your height in inches: >"))
+weight = float(input("Enter your weight in pounds: >"))
+bmi = (weight / (height ** 2)) * 703
+if bmi < 18.5:
+    print("You are underweight.")
+elif bmi >= 18.5 and bmi < 25:
+    print("You are at a healthy weight.")
+elif bmi >= 25 and bmi < 30:
+    print("You are overweight.")
+else:
+    print("You are obese.")
+
+#3. Discount Checker
+price = float(input("Enter the price of the item: >"))
+if price <= 30:
+    print("No discount for you! >:(")
+elif price > 30 and price < 50:
+    discount = price * 0.05
+    print(f"You got a 5% discount! Your new price is: ${price - discount}")
+elif price >= 50 and price < 100:
+    discount = price * 0.10
+    print(f"You got a 10% discount! Your new price is: ${price - discount}")
+elif price >= 100:
+    discount = price * 0.15
+    print(f"You got a 15% discount! Your new price is: ${price - discount}")
+
+#4. Celcius to Fahrenheit Converter
+c =  float(input("Enter temperature in Celcius: >"))
+f = (c * 9/5) + 32
+print(f"Your temperature in Fahrenheit is: {f}")
+
+#5. password Checker
+password = input("Enter your password: >")
+if len(password) >= 8:
+    print("Password Accepted.")
+else:
+    print("Password must be at least 8 characters long.")
