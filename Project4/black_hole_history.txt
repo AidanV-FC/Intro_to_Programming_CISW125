@@ -1,0 +1,5 @@
+Event Horizon: 436346.0 km, Mass: 2.9378978111644325e+35 kg, Solar Masses: 147707.0
+Event Horizon: 87349152.0 km, Mass: 5.881178754196654e+37 kg, Solar Masses: 29568520.0
+Event Horizon: 134235.0 km, Mass: 9.037981617378355e+34 kg, Solar Masses: 45439.0
+Event Horizon: 213413.0 km, Mass: 1.4369000416505137e+35 kg, Solar Masses: 72242.0
+Event Horizon: 23131343.0 km, Mass: 1.5574228242952548e+37 kg, Solar Masses: 7830180.0
